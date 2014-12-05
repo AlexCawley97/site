@@ -1,0 +1,168 @@
+/*
+GLOBAL
+===================================
+*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+/*
+NAV-BAR
+===================================
+*/
+
+header{
+    background-color: rgba(220, 220, 220, 0.7);
+}
+.nav-bar {
+    display: flex;
+    list-style: none;
+}
+.logo-li,
+.nav-li {
+    padding-top: 10px;
+    padding-bottom : 10px;
+}
+.logo-li {
+    flex: 2.5;
+}
+.nav-li {
+    flex: 1;
+    text-align: center;
+    background-color: rgba(220, 220, 220, 0.7);
+    border-right: 1px solid #ff6347;
+    transition: 0.5s;
+}
+.nav-li:last-child {
+    border-right: none;
+}
+.nav-li:hover {
+    transition: 0.5s;
+}
+.logo-a,
+.nav-a {
+    text-decoration: none;
+}
+.logo-a {
+    color: #ff6347;
+}
+.nav-a {
+    color: #333;
+    transition: 0.5s;
+}
+.active {
+    background-color: #ff6347;
+}
+.hero {
+    background-color: #ff6347;
+}
+.hero-h2 {
+    margin-top: 200px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+.hero-p {
+    margin-top: 10px;
+    margin-bottom: 200px;
+    font-size: 1.3em;
+}
+.hero-span {
+    font-size: 0.7em;
+}
+.hero-a {
+    color: #666;
+    text-decoration: none;
+}
+.hero-h2,
+.hero-p {
+    font-weight: 300;
+}
+.hero-a:hover {
+    text-decoration: underline;
+    color: #888;
+}
+.img-placeholder {
+    margin-top: 250px;
+    margin-left: 30%;
+}
+
+/*
+CONTENT
+===================================
+*/
+
+.content-background {
+    background-color: rgba(220, 220, 220, 0.7);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.post {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.post-info {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.post-info-p {
+    color: #777;
+    font-size: 0.80em;
+}
+.post-h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #ff6347;
+}
+.post-content-p {
+    line-height: 1.5em;
+}
+.line {
+    background-color: #555;
+    width: 20%;
+    height: 3px;
+    margin: 30px auto 30px auto;
+}
+.post:first-child {
+    margin-top: 40px;
+}
+.post:last-child {
+    margin-bottom: 40px;
+}
+.line:last-child {
+    display: none;
+}
+
+/*
+FOOTER
+===================================
+*/
+
+footer {
+    background-color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-info-header,
+.contact-info-li,
+.copyright,
+.top {
+    color: rgba(220, 220, 220, 0.8);
+    font-weight: 200;
+}
+.copyright {
+    text-align: center;
+}
+.top {
+    float: right;
+    text-decoration: none;
+}
+.top:hover {
+    color: #888;
+    text-decoration: underline;
+}
